@@ -1,7 +1,7 @@
 {
   "name": "zy-pc-ui",
   "description": "A Vue.js project",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "author": "zhyc <731692254@qq.com>",
   "license": "MIT",
   "main": "dist/zy-pc-ui.js",
