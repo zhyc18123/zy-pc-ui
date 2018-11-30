@@ -1,4 +1,12 @@
 # 表格使用
+## 安装
+    npm install 'zy-pc-ui'
+    
+## 在main.js引入
+    import ZyPcUi from 'zy-pc-ui'
+    Vue.use(ZyPcUi)
+    
+## 在.vue文件使用
     <zy-table :table="dataTable"></zy-table>
 
     data() {
