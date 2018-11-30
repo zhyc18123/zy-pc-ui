@@ -1,10 +1,12 @@
 
 import Button from './Button.vue' // 导入组件
 import Header from './Header.vue'
+import ZyTable from './Table.vue'
 
 const components = [
     Button,
-    Header
+    Header,
+    ZyTable
 ]
 
 const install = function (Vue, opts = {}) {
@@ -25,9 +27,11 @@ components.map(component => {
 export default {
     install,
     Button,
-    Header
+    Header,
+    ZyTable
 }
 export {
     Button,
-    Header
+    Header,
+    ZyTable
 }
