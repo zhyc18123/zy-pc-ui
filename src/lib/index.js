@@ -1,7 +1,7 @@
 
 import Button from './Button.vue' // 导入组件
 import Header from './Header.vue'
-import ZyTable from './Table.vue'
+import ZyTable from './table/Table.vue'
 
 const components = [
     Button,
